@@ -13,6 +13,8 @@ class L09FuncViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //函数
         sayHello(姓名: "zhaoxd")

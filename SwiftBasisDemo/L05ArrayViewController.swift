@@ -12,6 +12,8 @@ class L05ArrayViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //创建数组
         var arr = ["Hello",100,2.30]

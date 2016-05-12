@@ -12,6 +12,8 @@ class L10OOViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //面向对象
         let hi = Hi()

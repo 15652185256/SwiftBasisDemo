@@ -1,23 +1,19 @@
 //
-//  L01ViewController.swift
-//  Swifit基础
+//  ClosuresViewController.swift
+//  SwiftBasisDemo
 //
-//  Created by 赵晓东 on 16/3/16.
+//  Created by 赵晓东 on 16/5/12.
 //  Copyright © 2016年 ZXD. All rights reserved.
 //
 
 import UIKit
 
-class L01ViewController: UIViewController {
+class ClosuresViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.backgroundColor = UIColor.whiteColor()
-        
-        //打印
-        print("Hello World!")
 
+        self.view.backgroundColor = UIColor.whiteColor()
     }
 
     override func didReceiveMemoryWarning() {

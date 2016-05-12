@@ -12,6 +12,8 @@ class L04StringsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //创建字符串
         var i = 200

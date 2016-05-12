@@ -12,6 +12,8 @@ class L03TypesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //类型
         var str="Hello"

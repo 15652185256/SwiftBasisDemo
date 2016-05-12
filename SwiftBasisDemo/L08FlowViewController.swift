@@ -12,6 +12,8 @@ class L08FlowViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //流程控制
         for index in 0...100 {

@@ -12,6 +12,8 @@ class L07LoopViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //循环
         var arr = [String]()

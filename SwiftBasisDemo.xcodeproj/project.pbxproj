@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045C3E4E1CE46DE700F745E5 /* ClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C3E4D1CE46DE700F745E5 /* ClosuresViewController.swift */; };
 		04F03A651C9BE249003A462A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F03A641C9BE249003A462A /* AppDelegate.swift */; };
 		04F03A671C9BE249003A462A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F03A661C9BE249003A462A /* ViewController.swift */; };
 		04F03A6A1C9BE249003A462A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F03A681C9BE249003A462A /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045C3E4D1CE46DE700F745E5 /* ClosuresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosuresViewController.swift; sourceTree = "<group>"; };
 		04F03A611C9BE249003A462A /* SwiftBasisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F03A641C9BE249003A462A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F03A661C9BE249003A462A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				04F03A991C9BE2DF003A462A /* L08FlowViewController.swift */,
 				04F03A9A1C9BE2DF003A462A /* L09FuncViewController.swift */,
 				04F03A9B1C9BE2DF003A462A /* L10OOViewController.swift */,
+				045C3E4D1CE46DE700F745E5 /* ClosuresViewController.swift */,
 				04F03A681C9BE249003A462A /* Main.storyboard */,
 				04F03A6B1C9BE249003A462A /* Assets.xcassets */,
 				04F03A6D1C9BE249003A462A /* LaunchScreen.storyboard */,
@@ -298,6 +301,7 @@
 				04F03AA31C9BE2DF003A462A /* L08FlowViewController.swift in Sources */,
 				04F03AA21C9BE2DF003A462A /* L07LoopViewController.swift in Sources */,
 				04F03A9D1C9BE2DF003A462A /* L02VarsAndContantsViewController.swift in Sources */,
+				045C3E4E1CE46DE700F745E5 /* ClosuresViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +528,7 @@
 				04F03A8B1C9BE249003A462A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F03A8C1C9BE249003A462A /* Build configuration list for PBXNativeTarget "SwiftBasisDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				04F03A8E1C9BE249003A462A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F03A8F1C9BE249003A462A /* Build configuration list for PBXNativeTarget "SwiftBasisDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				04F03A911C9BE249003A462A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

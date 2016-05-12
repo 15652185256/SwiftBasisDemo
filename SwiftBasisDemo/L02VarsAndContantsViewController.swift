@@ -12,6 +12,8 @@ class L02VarsAndContantsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //变量
         var a=1

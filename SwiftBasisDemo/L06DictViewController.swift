@@ -12,6 +12,8 @@ class L06DictViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         //创建一个字典
         var dict = ["name":"zhaoxd","age":24];
